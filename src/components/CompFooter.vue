@@ -49,9 +49,9 @@ export default{
             </ul>
         </div>
     </div>
-    <figure>
-        <img src="../assets/img/dc-logo-bg.png" alt="logo">
-    </figure>
+    <!-- <figure> -->
+        <!-- <img src="../assets/img/dc-logo-bg.png" alt="logo"> -->
+    <!-- </figure> -->
 </div>
 <div class="signUp">
     <button class="btn text-light border border-primary">SIGN-UP NOW!</button>
@@ -68,7 +68,7 @@ export default{
 </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .bgContainer{
     background-image: url(../assets/img/footer-bg.jpg);
     background-size:cover ;
@@ -84,9 +84,15 @@ export default{
     display: flex;
     font-size: 15px;
     color: white;
-}
-.ulContainer ul li{
-    opacity: 55%;
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 20px;
+        ul li{
+        opacity: 55%;
+        }
 }
 .signUp{
     background-color: #303030;
@@ -96,15 +102,14 @@ export default{
     padding: 30px;
     position: absolute;
     width: 100%;
-
-}
-.signUp div{
-    display: flex;
-    align-items: center;
-}
-.signUp div ul{
-    display: flex;
-    gap: 10px;
-    align-items: center;
+        div{
+        display: flex;
+        align-items: center;
+          ul{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            }
+        }
 }
 </style>

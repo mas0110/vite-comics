@@ -22,11 +22,12 @@ export default{
     </div>
 </template>
 
-<style>
+<style lang="scss">
 li{
     list-style: none;
 }
 .mainContainer{
     height: 100vh;
+    background-color: black;
 }
 </style>

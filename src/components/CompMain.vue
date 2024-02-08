@@ -34,7 +34,7 @@ export default{
 </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .content{
     background-color: #1C1C1C;
     color: white;
@@ -47,17 +47,17 @@ color: white;
 position: relative;
 display: flex;
 justify-content: center;
-}
-.buyComics ul{
+ul{
     display: flex;
     gap: 15px;
+        li{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+            img{
+            height: 45px;
+            }
+        }
 }
-.buyComics ul img{
-    height: 45px;
-}
-.buyComics ul li{
-    display: flex;
-    gap: 15px;
-    align-items: center;
 }
 </style>

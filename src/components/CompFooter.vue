@@ -109,6 +109,9 @@ export default{
             display: flex;
             gap: 10px;
             align-items: center;
+            li img{
+                height: 30px;
+            }
             }
         }
 }
